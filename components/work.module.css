@@ -1,3 +1,7 @@
+.outer_container{
+  overflow: hidden;
+}
+
 .container {
   width: 100vw;
   height: 100vh;
@@ -33,9 +37,9 @@
   font-family: "Roboto Flex";
   font-size: 22px;
   font-weight: 300;
-  width: 54vw;
-  margin-top: 5vh;
-  line-height: 1.4;
+  width: 50vw;
+  margin-top: 6vh;
+  line-height: 1.5;
 }
 
 .image {
@@ -47,16 +51,18 @@
 .color_link {
   text-align: center;
   font-family: "Roboto Flex";
-  font-size: 28px;
+  font-size: 24px;
   font-weight: 500;
-  background: linear-gradient(280deg, #80ff00 20.34%, #fd0000 85.16%);
+  color: #8CFFCD;
+  /* background: linear-gradient(280deg, #80ff00 20.34%, #fd0000 85.16%);
   background-clip: text;
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: transparent; */
   margin-top: 10vh;
   width: 20vw;
 }
 
 .color_link:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
