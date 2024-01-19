@@ -1,0 +1,31 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: inline-flex;
+}
+
+.sub_container{
+    width: 100vw;
+}
+
+.title {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto Flex";
+  font-size: 70px;
+  font-weight: 700;
+}
+
+.description {
+  color: #fff;
+  text-align: center;
+  font-family: "Roboto Flex";
+  font-size: 22px;
+  font-weight: 400;
+}
+
+.image {
+  opacity: 0.65;
+  /* position: fixed; */
+
+}

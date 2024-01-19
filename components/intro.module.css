@@ -1,0 +1,47 @@
+.container {
+  width: 100vw;
+  padding: 0vh 5vw;
+}
+
+.greeting {
+  color: #bcfd4c;
+  font-family: DM Mono;
+  font-size: 24px;
+  font-weight: 500;
+  margin-top: 6vh;
+}
+
+.name {
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 100px;
+  font-weight: 700;
+  margin-top: 10vh;
+}
+
+.passion {
+  color: #fff;
+  font-family: Roboto Flex;
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 3vh;
+  width: 42vw;
+}
+
+.details {
+  color: #8cffcd;
+  font-family: DM Mono;
+  font-size: 22px;
+  font-weight: 300;
+  width: 40vw;
+  margin-top: 10vh;
+}
+
+.inline {
+  display: inline-flex;
+}
+
+.computer {
+
+  margin: 10vh 5vw;
+}
