@@ -4,8 +4,18 @@
   display: inline-flex;
 }
 
-.sub_container{
-    width: 100vw;
+.inline {
+  display: inline-flex;
+}
+
+.sub_container {
+  width: 100vw;
+  z-index: 999;
+}
+
+.center {
+  display: table;
+  margin: 0 auto;
 }
 
 .title {
@@ -14,6 +24,7 @@
   font-family: "Roboto Flex";
   font-size: 70px;
   font-weight: 700;
+  margin-top: 20vh;
 }
 
 .description {
@@ -21,11 +32,31 @@
   text-align: center;
   font-family: "Roboto Flex";
   font-size: 22px;
-  font-weight: 400;
+  font-weight: 300;
+  width: 54vw;
+  margin-top: 5vh;
+  line-height: 1.4;
 }
 
 .image {
   opacity: 0.65;
-  /* position: fixed; */
+  position: absolute;
+  left: 65vw;
+}
 
+.color_link {
+  text-align: center;
+  font-family: "Roboto Flex";
+  font-size: 28px;
+  font-weight: 500;
+  background: linear-gradient(280deg, #80ff00 20.34%, #fd0000 85.16%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  margin-top: 10vh;
+  width: 20vw;
+}
+
+.color_link:hover {
+  cursor: pointer;
 }
