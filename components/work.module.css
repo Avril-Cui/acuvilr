@@ -129,7 +129,51 @@
   cursor: pointer;
 }
 
-.aspect_demo{
+.aspect_demo {
   margin-top: 12vh;
+  margin-left: 3vw;
+}
+
+.lift_logo {
+  margin-top: 4.25vh;
+  margin-left: 2vw;
+}
+
+
+.type_1 {
+  color: #FFE400;
+  font-family: "DM Mono";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.tools_1 {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5vh;
+}
+
+.tools_1 span {
+  color: #BCFD4C;
+  font-weight: 700;
+}
+
+.source_1 {
+  color: #FFE400;
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+
+.source_1 span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.lift_demo {
+  margin-top: 6vh;
   margin-left: 3vw;
 }
