@@ -18,7 +18,7 @@ import fusion from "../assets/tech/fusion.png";
 import next from "../assets/tech/next.png";
 import postgres from "../assets/tech/postgres.png";
 
-function Skills() {
+function Skills(props: any) {
   const technologies = [
     {
       name: "Python",
@@ -95,8 +95,14 @@ function Skills() {
   ];
 
   return (
-    <div className={styles.container}>
-      <Header />
+    <div
+      className={styles.container}
+      data-aos="fade-up"
+      data-aos-offset="0"
+      data-aos-delay="50"
+      data-aos-duration="3000"
+      id={props.id}
+    >
       <p className={styles.top_header}>
         A front-end and back-end developer, and a designer.
       </p>
@@ -114,13 +120,18 @@ function Skills() {
         <p className={styles.text}>
           View my{" "}
           <span>
-            <a href="https://github.com/Avril-Cui" className={styles.github}>
+            <a
+              href="https://github.com/Avril-Cui"
+              target="_blank"
+              className={styles.github}
+            >
               GitHub
             </a>
           </span>{" "}
           for more details.
         </p>
       </div>
+     
       <div className={styles.center}>
         <div className={styles.skills}>
           {technologies.map((technology) => (

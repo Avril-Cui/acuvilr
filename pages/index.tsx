@@ -1,12 +1,15 @@
+const inter = Inter({ subsets: ["latin"] });
 import Head from "next/head";
 import Image from "next/image";
 import { Inter } from "next/font/google";
 import styles from "@/styles/Home.module.css";
 import Intro from "@/components/intro";
 import Skills from "@/components/skills";
-import Work from "@/components/work";
-
-const inter = Inter({ subsets: ["latin"] });
+import Header from "@/components/header";
+import Manu from "@/components/manu";
+import { motion } from "framer-motion";
+import { fadeIn } from "../utils/motion";
+import Project from "@/components/project";
 
 export default function Home() {
   return (
@@ -18,9 +21,12 @@ export default function Home() {
         <link rel="icon" href="/logo.png" />
       </Head>
       <main className={`${styles.main} ${inter.className}`}>
-        <Intro />
-        <Skills />
-        <Work />
+        <Header />
+        <Manu />
+
+        <Intro id="section1" />
+        <Skills id="section2" />
+        <Project id="section3" />
       </main>
     </>
   );

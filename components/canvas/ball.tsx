@@ -28,7 +28,7 @@ const Ball = (props: any) => {
         <Decal
           position={[0, 0, 1]}
           rotation={[2 * Math.PI, 0, 6.25]}
-          scale={1}
+          scale={0.85}
           map={decal}
           // @ts-expect-error
           flatShading

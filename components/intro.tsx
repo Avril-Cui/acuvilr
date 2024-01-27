@@ -2,10 +2,13 @@ import React from "react";
 import Header from "./header";
 import styles from "./intro.module.css";
 import ComputersCanvas from "./canvas/computers";
-function Intro() {
+
+function Intro(props: any) {
   return (
-    <div className={styles.container}>
-      <Header />
+    <div
+      className={styles.container}
+      id={props.id}
+    >
       <div className={styles.inline}>
         <div>
           <p className={styles.greeting}>Salve, mihi nomen est</p>

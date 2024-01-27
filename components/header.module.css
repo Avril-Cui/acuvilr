@@ -5,7 +5,7 @@
   left: 0px;
   z-index: 9999999;
   display: inline-flex;
-  padding: 2vh 2vw;
+  padding: 2.25vh 2vw;
   height: 10vh;
   background-color: #151515;
 }
@@ -13,7 +13,7 @@
 .title {
   color: #fff;
   text-align: center;
-  font-family: DM Mono;
+  font-family: "DM Mono";
   font-size: 24px;
   font-weight: 400;
   line-height: 1.75;

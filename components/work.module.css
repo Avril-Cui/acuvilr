@@ -1,6 +1,6 @@
-.outer_container{
+/* .outer_container{
   overflow: hidden;
-}
+} */
 
 .container {
   width: 100vw;
@@ -14,7 +14,7 @@
 
 .sub_container {
   width: 100vw;
-  z-index: 999;
+  z-index: 9;
 }
 
 .center {
@@ -48,12 +48,17 @@
   left: 65vw;
 }
 
+.aspect_logo {
+  opacity: 0.65;
+  position: absolute;
+}
+
 .color_link {
   text-align: center;
   font-family: "Roboto Flex";
   font-size: 24px;
   font-weight: 500;
-  color: #8CFFCD;
+  color: #8cffcd;
   /* background: linear-gradient(280deg, #80ff00 20.34%, #fd0000 85.16%);
   background-clip: text;
   -webkit-background-clip: text;
@@ -65,4 +70,66 @@
 .color_link:hover {
   cursor: pointer;
   text-decoration: underline;
+}
+
+.intro_container {
+  margin-left: 12vw;
+  margin-top: 7vw;
+  z-index: 50;
+}
+
+.type {
+  color: #8cffcd;
+  font-family: "DM Mono";
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.name {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 70px;
+  font-weight: 700;
+  margin-top: 3vh;
+  margin-bottom: -1vh;
+}
+
+.description {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 400;
+  width: 36vw;
+  text-align: left;
+}
+
+.tools {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5vh;
+}
+
+.tools span {
+  color: #ffe400;
+  font-weight: 700;
+}
+
+.source {
+  color: #8cffcd;
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 700;
+  text-decoration-line: none;
+}
+
+.source span:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.aspect_demo{
+  margin-top: 12vh;
+  margin-left: 3vw;
 }
