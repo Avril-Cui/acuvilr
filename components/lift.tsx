@@ -46,7 +46,7 @@ function Lift() {
       </div>
 
       <div className={styles.lift_demo}>
-        <Image src={lift_app} width={685} height={600} alt="" />
+        <Image src={lift_app} width={660} height={600} alt="" />
       </div>
     </div>
   );

@@ -1,0 +1,34 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: inline-flex;
+}
+
+.earth{
+    margin-left: 4vw;
+    width: 50vw;
+}
+
+.description {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 300;
+  width: 32.5vw;
+  margin-top: 23vw;
+}
+
+.description span:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.description span a{
+    text-decoration: none;
+    color: #FFE400;
+}
+
+.description span{
+    text-decoration: none;
+    color: #FFE400;
+}

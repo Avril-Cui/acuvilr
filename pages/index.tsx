@@ -10,6 +10,7 @@ import Manu from "@/components/manu";
 import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import Project from "@/components/project";
+import Contact from "@/components/contact";
 
 export default function Home() {
   return (
@@ -23,10 +24,11 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Header />
         <Manu />
-
+        
         <Intro id="section1" />
         <Skills id="section2" />
         <Project id="section3" />
+        <Contact />
       </main>
     </>
   );

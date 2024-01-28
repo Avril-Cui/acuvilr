@@ -73,7 +73,13 @@
 }
 
 .intro_container {
-  margin-left: 12vw;
+  margin-left: 10vw;
+  margin-top: 7vw;
+  z-index: 50;
+}
+
+.intro_container_1 {
+  margin-left: 4vw;
   margin-top: 7vw;
   z-index: 50;
 }
@@ -94,6 +100,15 @@
   margin-bottom: -1vh;
 }
 
+.name1 {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 60px;
+  font-weight: 700;
+  margin-top: 3vh;
+  margin-bottom: -1vh;
+}
+
 .description {
   color: #fff;
   font-family: "Roboto Flex";
@@ -101,6 +116,10 @@
   font-weight: 400;
   width: 36vw;
   text-align: left;
+}
+
+.description span{
+  color: #8cffcd;
 }
 
 .tools {
@@ -175,5 +194,10 @@
 
 .lift_demo {
   margin-top: 6vh;
-  margin-left: 3vw;
+  margin-left: 2vw;
+}
+
+.device_demo{
+  margin-left: 5vw;
+  margin-top: 4vh;
 }
