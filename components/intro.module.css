@@ -5,12 +5,9 @@
   overflow: hidden;
 }
 
-.greeting {
-  color: #bcfd4c;
-  font-family: DM Mono;
-  font-size: 24px;
-  font-weight: 500;
-  margin-top: 6vh;
+.center{
+  display: table;
+  margin: 0 auto;
 }
 
 .name {
@@ -18,7 +15,12 @@
   font-family: Roboto Flex;
   font-size: 100px;
   font-weight: 700;
-  margin-top: 10vh;
+  margin-top: 4vh;
+  text-align: center;
+}
+
+.name span {
+  color: #ffe400;
 }
 
 .passion {
@@ -26,17 +28,22 @@
   font-family: Roboto Flex;
   font-size: 70px;
   font-weight: 700;
-  margin-top: 3vh;
-  width: 42vw;
+  margin-top: 4vh;
+  text-align: center;
+}
+
+.passion span {
+  color: #ffe400;
 }
 
 .details {
-  color: #8cffcd;
+  color: #fff;
   font-family: DM Mono;
   font-size: 22px;
   font-weight: 300;
-  width: 40vw;
-  margin-top: 10vh;
+  width: 50vw;
+  margin-top: 6vh;
+  text-align: center;
 }
 
 .inline {
@@ -44,6 +51,8 @@
 }
 
 .computer {
-
-  margin: 10vh 5vw;
+  display: table;
+  margin: 0 auto;
+  margin-top: -3vh;
+  margin-left: 14vw;
 }

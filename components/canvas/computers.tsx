@@ -18,12 +18,12 @@ const Computers: React.FC = () => {
 
 const ComputersCanvas = () => {
   return (
-    <div style={{ height: "40em", width: "40em" }}>
+    <div style={{ height: "40em", width: "70em" }}>
       <Canvas
         frameloop="demand"
         shadows
         dpr={[1, 2]}
-        camera={{ position: [30, 3, -10], fov: 23 }}
+        camera={{ position: [30, 3, 0], fov: 25 }}
         // camera={{ position: [30, 3, 5], fov: 100 }}
         gl={{ preserveDrawingBuffer: true }}
       >
