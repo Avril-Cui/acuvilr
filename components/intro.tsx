@@ -2,6 +2,7 @@ import React from "react";
 import Header from "./header";
 import styles from "./intro.module.css";
 import ComputersCanvas from "./canvas/computers";
+import dynamic from "next/dynamic";
 
 function Intro(props: any) {
   return (

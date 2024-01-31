@@ -2,7 +2,8 @@
   width: 100vw;
   height: 100vh;
   padding: 0vh 5vw;
-  padding-top:3vh;
+  padding-top: 3vh;
+  scroll-snap-align: proximity;
 }
 
 .center {
@@ -48,8 +49,8 @@
   text-decoration-line: underline;
 }
 
-.github:hover{
-    cursor: pointer;
+.github:hover {
+  cursor: pointer;
 }
 
 .ball {

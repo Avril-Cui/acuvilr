@@ -11,8 +11,12 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import Project from "@/components/project";
 import Contact from "@/components/contact";
+import { useRef } from "react";
+import useScrollSnap from "react-use-scroll-snap";
 
 export default function Home() {
+  const scrollRef = useRef(null);
+  useScrollSnap({ ref: scrollRef, duration: 1 });
   return (
     <>
       <Head>
@@ -24,11 +28,12 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Header />
         <Manu />
-        
-        <Intro id="section1" />
-        <Skills id="section2" />
-        <Project id="section3" />
-        <Contact />
+        <div ref={scrollRef}>
+          <Intro id="section1" />
+          <Skills id="section2" />
+          <Project id="section3" />
+          <Contact />
+        </div>
       </main>
     </>
   );
