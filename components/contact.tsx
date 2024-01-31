@@ -4,7 +4,7 @@ import styles from "./contact.module.css";
 
 const Contact = () => {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="section4">
       <div className={styles.earth}>
         <EarthCanvas />
       </div>

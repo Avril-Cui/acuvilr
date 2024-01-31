@@ -4,9 +4,10 @@
   display: inline-flex;
 }
 
-.earth{
-    margin-left: 4vw;
-    width: 50vw;
+.earth {
+  margin-left: 8vw;
+  width: 50vw;
+  margin-top: -14vh;
 }
 
 .description {
@@ -15,20 +16,20 @@
   font-size: 20px;
   font-weight: 300;
   width: 32.5vw;
-  margin-top: 23vw;
+  margin-top: 18vw;
 }
 
-.description span:hover{
-    text-decoration: underline;
-    cursor: pointer;
+.description span:hover {
+  text-decoration: underline;
+  cursor: pointer;
 }
 
-.description span a{
-    text-decoration: none;
-    color: #FFE400;
+.description span a {
+  text-decoration: none;
+  color: #ffe400;
 }
 
-.description span{
-    text-decoration: none;
-    color: #FFE400;
+.description span {
+  text-decoration: none;
+  color: #ffe400;
 }

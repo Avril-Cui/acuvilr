@@ -73,7 +73,7 @@
 }
 
 .intro_container {
-  margin-left: 10vw;
+  margin-left: 11vw;
   margin-top: 7vw;
   z-index: 50;
 }
@@ -194,10 +194,10 @@
 
 .lift_demo {
   margin-top: 6vh;
-  margin-left: 2vw;
+  margin-left: 5vw;
 }
 
 .device_demo{
-  margin-left: 5vw;
+  margin-left: 7vw;
   margin-top: 4vh;
 }
