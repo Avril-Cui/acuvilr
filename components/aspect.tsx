@@ -4,7 +4,7 @@ import aspect_demo from "../public/aspect.png";
 
 function Aspect() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="code">
       <div className={styles.aspect_logo}>
         <Image src="/aspect_logo.png" width={540} height={670} alt="" />
       </div>

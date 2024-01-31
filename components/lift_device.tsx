@@ -4,7 +4,7 @@ import lift_device from "../public/device.png";
 
 function LiftDevice() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container} id="design">
       <div className={styles.device_demo}>
         <Image src={lift_device} width={700} height={450} alt="" />
       </div>

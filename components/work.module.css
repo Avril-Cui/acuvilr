@@ -28,7 +28,7 @@
   font-family: "Roboto Flex";
   font-size: 70px;
   font-weight: 700;
-  margin-top: 20vh;
+  margin-top: 16vh;
 }
 
 .description {
@@ -59,12 +59,9 @@
   font-size: 24px;
   font-weight: 500;
   color: #8cffcd;
-  /* background: linear-gradient(280deg, #80ff00 20.34%, #fd0000 85.16%);
-  background-clip: text;
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent; */
   margin-top: 10vh;
   width: 20vw;
+  text-decoration: none;
 }
 
 .color_link:hover {
@@ -73,14 +70,14 @@
 }
 
 .intro_container {
-  margin-left: 11vw;
+  margin-left: 12vw;
   margin-top: 7vw;
   z-index: 50;
 }
 
 .intro_container_1 {
   margin-left: 4vw;
-  margin-top: 7vw;
+  margin-top: 11vw;
   z-index: 50;
 }
 
@@ -107,6 +104,17 @@
   font-weight: 700;
   margin-top: 3vh;
   margin-bottom: -1vh;
+}
+
+.description_first {
+  color: #fff;
+  font-family: "Roboto Flex";
+  font-size: 20px;
+  font-weight: 400;
+  width: 60vw;
+  margin-top: 6vh;
+  text-align: center;
+  line-height: 1.4;
 }
 
 .description {
@@ -199,5 +207,5 @@
 
 .device_demo{
   margin-left: 7vw;
-  margin-top: 4vh;
+  margin-top: 10vh;
 }

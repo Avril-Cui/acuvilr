@@ -37,20 +37,6 @@
 .logo {
   margin-top: 5vh;
   display: table;
-  margin-left: 1.15vh;
+  margin-left: 1.5vh;
   margin-bottom: 4.5vh;
 }
-
-/* 
-.navbar {
-  display: inline-flex;
-  list-style-type: none;
-  position: fixed;
-  top: 95vh;
-  z-index: 999;
-  background-color: #151515;
-  width: 100%;
-  padding-left: 75vw;
-  padding-top: 1vh;
-  height: 5vh;
-} */
