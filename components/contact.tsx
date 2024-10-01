@@ -9,7 +9,7 @@ const Contact = () => {
         <EarthCanvas />
       </div>
       <div className={styles.description}>
-        If you are interested in any of my works, want to collaborate with me on
+        Hi, if you are interested in any of my works, want to collaborate with me on
         anything, want to reach out to me, or just want to say hi, feel free to
         contact me via email (<span>AvrilCui17@gmail.com</span>),{" "}
         <span>
