@@ -1,6 +1,6 @@
 .container {
   width: 100vw;
-  padding: 0vh 5vw;
+  padding: 0vh 4vw;
   height: 100vh;
 }
 
@@ -16,6 +16,7 @@
   font-weight: 700;
   margin-top: 4vh;
   text-align: center;
+  width: 100vw;
 }
 
 .name span {
@@ -29,6 +30,7 @@
   font-weight: 700;
   margin-top: 4vh;
   text-align: center;
+  width: 100vw;
 }
 
 .passion span {
@@ -40,7 +42,7 @@
   font-family: DM Mono;
   font-size: 22px;
   font-weight: 300;
-  width: 50vw;
+  width: 40vw;
   margin-top: 6vh;
   text-align: center;
 }
@@ -52,6 +54,6 @@
 .computer {
   display: table;
   margin: 0 auto;
-  margin-top: -3vh;
-  margin-left: 14vw;
+  /* margin-top: -3vh; */
+  /* margin-left: 12vw; */
 }

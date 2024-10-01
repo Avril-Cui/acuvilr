@@ -70,8 +70,10 @@
 }
 
 .intro_container {
-  margin-left: 12vw;
-  margin-top: 7vw;
+  display: table;
+  margin: 0 auto;
+  /* margin-left: 12vw;
+  margin-top: 7vw; */
   z-index: 50;
 }
 

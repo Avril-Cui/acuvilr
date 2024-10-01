@@ -1,8 +1,6 @@
 import React from "react";
-import Header from "./header";
 import styles from "./intro.module.css";
 import ComputersCanvas from "./canvas/computers";
-import dynamic from "next/dynamic";
 
 function Intro(props: any) {
   return (
@@ -13,15 +11,19 @@ function Intro(props: any) {
       <p className={styles.passion}>
         I love to <span>build things.</span>
       </p>
-      <div className={styles.center}>
-        <p className={styles.details}>
-          A so-called full-stack engineer. Also a high school student interested
-          all cool things coding can do.
-        </p>
+      <div style={{ width: "100vw" }}>
+        <div className={styles.center}>
+          <p className={styles.details}>
+            A so-called full-stack engineer. I am
+            interested all cool things coding can do.
+          </p>
+        </div>
       </div>
-      <div className={styles.computer}>
+      <div style={{ width: "100vw" }}>
+        <div className={styles.computer}>
           <ComputersCanvas />
         </div>
+      </div>
     </div>
   );
 }

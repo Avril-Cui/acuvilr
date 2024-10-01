@@ -109,13 +109,13 @@ function Skills(props: any) {
       <p className={styles.header}>Some skills I have</p>
       <div className={styles.text_container}>
         <p className={styles.text}>
-          My main focus is on website development - both the backend and the
+          My main focus is on software development - both the backend and the
           frontend.
         </p>
         <p className={styles.text}>
           I write Python or Go scripts for machine learning, web scraping, bot
           development, REST API, and automation purposes. I frequently work with
-          HTML, CSS, JS, and develop websites with React, Next, or Vue.{" "}
+          HTML, CSS, JS, and build software with React, Next, React Native, or Vue.{" "}
         </p>
         <p className={styles.text}>
           View my{" "}

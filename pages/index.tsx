@@ -11,12 +11,11 @@ import { motion } from "framer-motion";
 import { fadeIn } from "../utils/motion";
 import Project from "@/components/project";
 import Contact from "@/components/contact";
-import { useRef } from "react";
+import { useRef, useEffect, useState } from "react";
 import useScrollSnap from "react-use-scroll-snap";
 
 export default function Home() {
-  const scrollRef = useRef(null);
-  useScrollSnap({ ref: scrollRef, duration: 1 });
+  // https://medium.com/@ranjandsingh/snap-scroll-in-react-in-less-than-a-minute-b6ba45453b7a
   return (
     <>
       <Head>
@@ -28,12 +27,10 @@ export default function Home() {
       <main className={`${styles.main} ${inter.className}`}>
         <Header />
         <Manu />
-        <div ref={scrollRef}>
           <Intro id="section1" />
           <Skills id="section2" />
           <Project id="section3" />
           <Contact />
-        </div>
       </main>
     </>
   );
