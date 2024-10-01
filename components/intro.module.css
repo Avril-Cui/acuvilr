@@ -55,5 +55,6 @@
   display: table;
   margin: 0 auto;
   margin-top: -5vh;
-  /* margin-left: 12vw; */
+  padding-left: 10vw;
+  /* margin-left: 30vw; */
 }

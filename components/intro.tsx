@@ -6,7 +6,7 @@ function Intro(props: any) {
   return (
     <div className={styles.container} id={props.id}>
       <p className={styles.name}>
-        print(<span>"</span>I am Avril.<span>"</span>)
+        print(<span>&quot;</span>I am Avril.<span>&quot;</span>)
       </p>
       <p className={styles.passion}>
         I love to <span>build things.</span>
