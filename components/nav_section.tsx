@@ -2,7 +2,7 @@ import styles from "./nav_section.module.css";
 import { Link, animateScroll as scroll } from "react-scroll";
 import { useState } from "react";
 
-function NavSection(props: any) {
+function NavSection() {
   const [page, setPage] = useState(0);
   const setPageNumber = (page_num: number) => {
     setPage(page_num);
