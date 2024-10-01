@@ -1,10 +1,11 @@
 import styles from "./work.module.css";
 import Image from "next/image";
 import aspect_demo from "../public/aspect.png";
+import NavSection from "./nav_section";
 
 function Aspect() {
   return (
-    <div className={styles.outer_container}>
+    <div className={styles.outer_container} id="section5">
       <div className={styles.center} id="code">
         <div className={styles.container}>
           <div className={styles.aspect_logo}>
@@ -50,6 +51,7 @@ function Aspect() {
           </div>
         </div>
       </div>
+      <NavSection />
     </div>
   );
 }

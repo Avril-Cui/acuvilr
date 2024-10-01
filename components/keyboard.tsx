@@ -1,10 +1,11 @@
 import styles from "./work.module.css";
 import Image from "next/image";
 import keyboard from "../public/keyboard.png";
+import NavSection from "./nav_section";
 
 function Keyboard() {
   return (
-    <div className={styles.outer_container}>
+    <div className={styles.outer_container} id="section8">
       <div className={styles.center} id="code">
         <div className={styles.container}>
           <div className={styles.device_demo}>
@@ -23,6 +24,9 @@ function Keyboard() {
             </p>
           </div>
         </div>
+      </div>
+      <div>
+        <NavSection />
       </div>
     </div>
   );
