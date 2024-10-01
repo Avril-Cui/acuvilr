@@ -1,11 +1,18 @@
-/* .outer_container{
-  overflow: hidden;
-} */
-
-.container {
+.outer_container {
   width: 100vw;
   height: 100vh;
+  margin-top: 2vh;
+}
+
+.container_work {
   display: inline-flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  display: inline-flex;
+  margin-left: 5vw;
 }
 
 .inline {
@@ -50,6 +57,7 @@
 
 .aspect_logo {
   opacity: 0.65;
+  margin-left: -12vw;
   position: absolute;
 }
 
@@ -69,14 +77,6 @@
   text-decoration: underline;
 }
 
-.intro_container {
-  display: table;
-  margin: 0 auto;
-  /* margin-left: 12vw;
-  margin-top: 7vw; */
-  z-index: 50;
-}
-
 .intro_container_1 {
   margin-left: 4vw;
   margin-top: 11vw;
@@ -88,6 +88,7 @@
   font-family: "DM Mono";
   font-size: 20px;
   font-weight: 500;
+  margin-top: 10vh;
 }
 
 .name {
@@ -95,7 +96,7 @@
   font-family: "Roboto Flex";
   font-size: 70px;
   font-weight: 700;
-  margin-top: 3vh;
+  margin-top: 5vh;
   margin-bottom: -1vh;
 }
 
@@ -112,8 +113,8 @@
   color: #fff;
   font-family: "Roboto Flex";
   font-size: 20px;
-  font-weight: 400;
-  width: 60vw;
+  font-weight: 300;
+  width: 56vw;
   margin-top: 6vh;
   text-align: center;
   line-height: 1.4;
@@ -128,7 +129,7 @@
   text-align: left;
 }
 
-.description span{
+.description span {
   color: #8cffcd;
 }
 
@@ -160,7 +161,6 @@
 
 .aspect_demo {
   margin-top: 12vh;
-  margin-left: 3vw;
 }
 
 .lift_logo {
@@ -168,9 +168,8 @@
   margin-left: 2vw;
 }
 
-
 .type_1 {
-  color: #FFE400;
+  color: #ffe400;
   font-family: "DM Mono";
   font-size: 20px;
   font-weight: 500;
@@ -185,12 +184,12 @@
 }
 
 .tools_1 span {
-  color: #BCFD4C;
+  color: #bcfd4c;
   font-weight: 700;
 }
 
 .source_1 {
-  color: #FFE400;
+  color: #ffe400;
   font-family: "Roboto Flex";
   font-size: 20px;
   font-weight: 700;
@@ -207,7 +206,7 @@
   margin-left: 5vw;
 }
 
-.device_demo{
-  margin-left: 7vw;
-  margin-top: 10vh;
+.device_demo {
+  /* margin-left: 7vw; */
+  margin-top: 17vh;
 }

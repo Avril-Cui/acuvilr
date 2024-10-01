@@ -23,7 +23,11 @@ const Contact = () => {
             GitHub
           </a>
         </span>
-        , <span>Instagram</span>.
+        ,{" "}
+        <span>
+          <a href="https://www.instagram.com/avril_cfq/" target="_blank">Instagram</a>
+        </span>
+        .
       </div>
     </div>
   );

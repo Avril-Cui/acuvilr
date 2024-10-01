@@ -1,6 +1,6 @@
 .container {
   width: 100vw;
-  padding: 0vh 4vw;
+  padding: 0vh 2vw;
   height: 100vh;
 }
 
@@ -54,6 +54,6 @@
 .computer {
   display: table;
   margin: 0 auto;
-  /* margin-top: -3vh; */
+  margin-top: -5vh;
   /* margin-left: 12vw; */
 }

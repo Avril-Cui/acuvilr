@@ -6,6 +6,8 @@ import lift_app from "../public/lift_app.png";
 
 function Lift() {
   return (
+    <div className={styles.outer_container}>
+      <div className={styles.center} id="code">
     <div className={styles.container}>
       <div className={styles.intro_container}>
         <p className={styles.type_1}>Fitness Web App</p>
@@ -48,6 +50,8 @@ function Lift() {
       <div className={styles.lift_demo}>
         <Image src={lift_app} width={660} height={600} alt="" />
       </div>
+    </div>
+    </div>
     </div>
   );
 }

@@ -5,7 +5,7 @@ import { Link, animateScroll as scroll } from "react-scroll";
 
 function Work() {
   return (
-    <div className={styles.container}>
+    <div className={styles.container_work}>
       <div className={styles.sub_container}>
         <p className={styles.title}>What are my works?</p>
         <div className={styles.center}>
