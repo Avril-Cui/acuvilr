@@ -10,7 +10,6 @@ import Project from "@/components/project";
 import Contact from "@/components/contact";
 
 export default function Home() {
-  // https://medium.com/@ranjandsingh/snap-scroll-in-react-in-less-than-a-minute-b6ba45453b7a
   return (
     <>
       <Head>
