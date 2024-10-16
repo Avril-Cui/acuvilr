@@ -24,7 +24,7 @@ export default function Home() {
           <Intro id="section1" />
           <Skills id="section2" />
           <Project id="section3" />
-          <Contact />
+          {/* <Contact /> */}
       </main>
     </>
   );

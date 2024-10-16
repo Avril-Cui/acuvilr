@@ -1,6 +1,7 @@
 import React, { Suspense, useEffect, useState } from "react";
 import { Canvas } from "@react-three/fiber";
 import { OrbitControls, Preload, useGLTF } from "@react-three/drei";
+import styles from "./styles.module.css"
 
 import CanvasLoader from "../layout/Loader";
 
@@ -18,7 +19,7 @@ const Computers: React.FC = () => {
 
 const ComputersCanvas = () => {
   return (
-    <div style={{ height: "40em", width: "70em" }}>
+    <div className={styles.container}>
       <Canvas
         frameloop="demand"
         shadows

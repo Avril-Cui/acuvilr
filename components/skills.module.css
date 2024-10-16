@@ -63,3 +63,52 @@
   padding: 0vh 17vw;
   margin-top: 5vh;
 }
+
+@media only screen and (max-width: 600px) {
+  .container {
+    margin-top: -14em;
+  }
+
+  .top_header {
+    margin-top: 3em;
+    color: #8cffcd;
+    font-family: "DM Mono";
+    font-size: 14px;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 5vh;
+    padding-right: 5vw;
+  }
+
+  .header {
+    color: #fff;
+    text-align: left;
+    font-family: "Roboto Flex";
+    font-size: 36px;
+    font-weight: 700;
+    margin-top: -2vh;
+  }
+
+  .text {
+    color: #fff;
+    text-align: left;
+    font-family: "Roboto Flex";
+    font-size: 14px;
+    font-weight: 300;
+    width: 78vw;
+    margin-left: -10vw;
+    margin-bottom: 2.5vh;
+  }
+
+  .ball {
+    width: 16vw;
+    height: 20vw;
+  }
+
+  .skills {
+    display: flex;
+    flex-flow: row wrap;
+    padding: 0vh 0vw;
+    margin-top: 2vh;
+  }
+}

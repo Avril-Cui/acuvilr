@@ -10,6 +10,12 @@
   background-color: #151515;
 }
 
+@media only screen and (max-width: 600px) {
+  .header{
+    display: none;
+  }
+}
+
 .title {
   color: #a0a0a0;
   text-align: center;

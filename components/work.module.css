@@ -207,6 +207,52 @@
 }
 
 .device_demo {
-  /* margin-left: 7vw; */
   margin-top: 17vh;
+}
+
+@media only screen and (max-width: 600px) {
+  .title {
+    color: #fff;
+    text-align: left;
+    font-family: "Roboto Flex";
+    font-size: 32px;
+    font-weight: 700;
+    margin-top: 14vh;
+    margin-left: 4vw;
+  }
+
+  .description_first {
+    color: #fff;
+    font-family: "Roboto Flex";
+    font-size: 14px;
+    font-weight: 300;
+    width: 84vw;
+    margin-top: 8vh;
+    text-align: left;
+    line-height: 1.5;
+    margin-left: -10vw;
+  }
+
+  .inline {
+    margin-left: -7vw;
+  }
+
+  .color_link {
+    text-align: center;
+    font-family: "Roboto Flex";
+    font-size: 16px;
+    font-weight: 500;
+    color: #8cffcd;
+    margin-top: 10vh;
+    width: 25vw;
+    text-decoration: none;
+  }
+
+  .image {
+    opacity: 0.65;
+    position: absolute;
+    left: 0vw;
+    height: 300px;
+    width: 300px;
+  }
 }

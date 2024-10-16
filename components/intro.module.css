@@ -4,7 +4,7 @@
   height: 100vh;
 }
 
-.center{
+.center {
   display: table;
   margin: 0 auto;
 }
@@ -56,5 +56,44 @@
   margin: 0 auto;
   margin-top: -5vh;
   padding-left: 10vw;
-  /* margin-left: 30vw; */
+}
+
+@media only screen and (max-width: 600px) {
+  .container {
+    width: 100vw;
+    height: 100vh;
+  }
+  .name {
+    color: #fff;
+    font-family: Roboto Flex;
+    font-size: 34px;
+    font-weight: 700;
+    margin: 12vh -7vw 0;
+  }
+
+  .passion {
+    color: #fff;
+    font-family: Roboto Flex;
+    font-size: 30px;
+    font-weight: 700;
+    margin: 2vh -7vw 0;
+  }
+
+  .details {
+    color: #fff;
+    font-family: DM Mono;
+    font-size: 16px;
+    font-weight: 300;
+    width: 80vw;
+    margin: 7vh 0;
+    margin-right: 7vw;
+    text-align: left;
+  }
+
+  .computer {
+    display: table;
+    margin: 0 auto;
+    margin-top: -2vh;
+    padding-left: 0vw;
+  }
 }
